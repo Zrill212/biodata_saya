@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5efef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #222121;
+    box-shadow: 9px 9px 7px 1px rgba(87,82,82,1);
+    overflow: hidden;
+}
+
+.profile {
+    padding: 30px;
+    text-align: center;
+}
+
+.photo {
+    margin-bottom: 20px;
+}
+
+.poto-saya {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #cfcdcd;
+    object-fit: cover;
+}
+ .info{
+
+    text-align: start;
+    width: 250px;
+    margin: 20px auto;
+ }
+
+.info p {
+    font-size: 16px;
+    color: #cfcdcd;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    
+}
+
+h1 {
+    font-size: 24px;
+    color: #cfcdcd;
+    margin-bottom: 20px;
+}
+
+.info h1 {
+    text-align: center;
+    
+}
